@@ -97,4 +97,20 @@ We love receiving feedback! We're always looking to improve our challenges and o
 
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
-**Have fun building!** 🚀
+Accessibility refers to designing devices, products, and environments such that individuals with disabilities or sensory impairments can successfully use them.
+
+Accessibility Guidelines
+The Web Content Accessibility Guidelines (WCAG) break down accessibility into four main principles:
+
+Perceivable: Create content that can be perceived in different ways, for example, providing text alternatives for non-text content and content that can be perceived by assistive technologies like screen readers.
+Operable: Enable simple operation by making all functionality available from the keyboard, helping users navigate and find content, and giving users plenty of time to consume content.
+Understandable: Make text readable and understandable, make content appear in predictable ways, and help users avoid and correct mistakes.
+Robust: Maximize compatibility with current and future user tools.
+Inclusive design focuses on designing for users of all demographics and abilities, while accessibility is specifically focused on designing for people with disabilities. Any product that doesn’t consider accessibility and equity may (whether intentionally or not) exclude a portion of the population who would otherwise find it useful.
+
+Resources
+Codecademy: What is Digital Accessibility?
+W3C: Web Content Accessibility Guidelines
+The A11Y Project
+Interaction Design Foundation: What Is Accessibility?
+UX Planet: A Primer to Web Accessibility for Designers
