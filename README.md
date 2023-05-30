@@ -114,3 +114,12 @@ W3C: Web Content Accessibility Guidelines
 The A11Y Project
 Interaction Design Foundation: What Is Accessibility?
 UX Planet: A Primer to Web Accessibility for Designers
+
+
+Animation Settings
+While variation exists across design software, standard animation settings include the following:
+
+Duration, typically measured in milliseconds, is how long the animation lasts.
+Style correlates to how the animation looks. For example, “Dissolve” creates a fading effect, and “Bounce” evokes a ball bouncing up and down.
+Easing refers to the way an animation accelerates throughout its duration. Adjusting the easing further customizes the visual style of the motion. Check out this resource from Figma about easing to explore how different easing options impact the animation.
+This article from Adobe XD about animation principles discusses how to apply animations to a prototype.
