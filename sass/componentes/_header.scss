@@ -1,15 +1,24 @@
 .header{
     max-width: 1440px;
-    
     margin:  0 auto;
     &__hero{
         background-color: red;
         display: flex;
         justify-content: space-between;
-        &--nav ul{
-            display: flex;
-            gap: 3rem;
-            list-style: none;
+        align-items: center;
+        height: 50px;
+        &--nav {
+            height: 100%;
+            background-color: green;
+            & ul{
+                display: flex;
+                height: 100%;
+                gap: 3rem;
+                list-style: none;
+                align-items: center;
+                background-color: pink;
+                margin-right: 3rem;
+            }
         }
     }
 }
