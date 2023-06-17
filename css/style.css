@@ -459,3 +459,24 @@ output {
 body {
   color: #FFF;
 }
+
+.header {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.header__hero {
+  background-color: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.header__hero--nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+}
