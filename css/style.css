@@ -457,7 +457,7 @@ output {
 /* Media Queries Mixin
 **********************/
 body {
-  color: #FFF;
+  color: #0C122C;
 }
 
 .header {
@@ -493,4 +493,9 @@ body {
           align-items: center;
   background-color: pink;
   margin-right: 3rem;
+}
+.header__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
