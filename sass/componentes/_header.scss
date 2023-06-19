@@ -25,5 +25,18 @@
         display: flex;
     }
 }
+.btn{
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(84, 83, 83, 0.41);;
+
+    &-principal{
+        background-color: rgb(93, 93, 242);
+        color: white;
+        margin-right: 15px;
+    }
+}
 
 
