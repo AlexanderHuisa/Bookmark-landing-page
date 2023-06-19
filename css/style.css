@@ -494,6 +494,9 @@ body {
   background-color: pink;
   margin-right: 3rem;
 }
+.header__hero--nav li a {
+  text-transform: uppercase;
+}
 .header__content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -512,4 +515,10 @@ body {
   background-color: rgb(93, 93, 242);
   color: white;
   margin-right: 15px;
+}
+.btn-red {
+  padding: 0.5rem 1.6rem;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  border-radius: 5px;
 }

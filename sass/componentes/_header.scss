@@ -19,6 +19,9 @@
                 background-color: pink;
                 margin-right: 3rem;
             }
+            & li a{
+                text-transform: uppercase;
+            }
         }
     }
     &__content{
@@ -36,6 +39,12 @@
         background-color: rgb(93, 93, 242);
         color: white;
         margin-right: 15px;
+    }
+    &-red{
+        padding: .5rem 1.6rem;
+        background-color: rgb(255, 0, 0);
+        color: white;
+        border-radius: 5px;
     }
 }
 
