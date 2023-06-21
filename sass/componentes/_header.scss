@@ -34,6 +34,11 @@
         &--info{
             width: 50%  ;
         }
+
+        &--img img{
+            box-shadow: 0 0 2px 15px rgba(54, 52, 52, 0.987);
+            border-radius: 10px;    
+        }
     }
 }
 .btn{

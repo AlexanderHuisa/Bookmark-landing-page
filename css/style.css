@@ -511,6 +511,11 @@ body {
 .header__content--info {
   width: 50%;
 }
+.header__content--img img {
+  -webkit-box-shadow: 0 0 2px 15px rgba(54, 52, 52, 0.987);
+          box-shadow: 0 0 2px 15px rgba(54, 52, 52, 0.987);
+  border-radius: 10px;
+}
 
 .btn {
   width: 10rem;
