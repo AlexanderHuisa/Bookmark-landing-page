@@ -7,6 +7,7 @@
         justify-content: space-between;
         align-items: center;
         height: 50px;
+        margin-top: 2rem;
         &--nav {
             height: 100%;
             background-color: green;
@@ -26,6 +27,13 @@
     }
     &__content{
         display: flex;
+        gap: 10%;
+        height: 50rem;
+        align-items: center;
+
+        &--info{
+            width: 50%  ;
+        }
     }
 }
 .btn{
@@ -33,7 +41,8 @@
     height: 2.5rem;
     border-radius: 5px;
     border: none;
-    box-shadow: 2px 2px 5px rgba(84, 83, 83, 0.41);;
+    box-shadow: 2px 2px 5px rgba(84, 83, 83, 0.41);
+    cursor: pointer;
 
     &-principal{
         background-color: rgb(93, 93, 242);

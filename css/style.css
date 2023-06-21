@@ -476,6 +476,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   height: 50px;
+  margin-top: 2rem;
 }
 .header__hero--nav {
   height: 100%;
@@ -501,6 +502,14 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  gap: 10%;
+  height: 50rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header__content--info {
+  width: 50%;
 }
 
 .btn {
@@ -510,6 +519,7 @@ body {
   border: none;
   -webkit-box-shadow: 2px 2px 5px rgba(84, 83, 83, 0.41);
           box-shadow: 2px 2px 5px rgba(84, 83, 83, 0.41);
+  cursor: pointer;
 }
 .btn-principal {
   background-color: rgb(93, 93, 242);
