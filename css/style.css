@@ -465,7 +465,6 @@ body {
   margin: 0 auto;
 }
 .header__hero {
-  background-color: red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -480,7 +479,6 @@ body {
 }
 .header__hero--nav {
   height: 100%;
-  background-color: green;
 }
 .header__hero--nav ul {
   display: -webkit-box;
@@ -492,7 +490,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: pink;
   margin-right: 3rem;
 }
 .header__hero--nav li a {

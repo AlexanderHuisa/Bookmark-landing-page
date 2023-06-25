@@ -2,7 +2,7 @@
     max-width: 1440px;
     margin:  0 auto;
     &__hero{
-        background-color: red;
+        // background-color: red;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -10,14 +10,14 @@
         margin-top: 2rem;
         &--nav {
             height: 100%;
-            background-color: green;
+            // background-color: green;
             & ul{
                 display: flex;
                 height: 100%;
                 gap: 3rem;
                 list-style: none;
                 align-items: center;
-                background-color: pink;
+                // background-color: pink;
                 margin-right: 3rem;
             }
             & li a{
