@@ -537,3 +537,11 @@ body {
   color: white;
   border-radius: 5px;
 }
+
+.main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.main__features {
+  text-align: center;
+}
