@@ -454,10 +454,12 @@ output {
 [hidden] {
   display: none !important;
 }
+
+
 /* Media Queries Mixin
 **********************/
 body {
-  color: #0C122C;
+  color: black;
 }
 
 .header {
