@@ -1,0 +1,17 @@
+footer{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgb(33, 33, 71);
+}
+.footer__nav{
+    display: flex;
+}
+.footer__nav nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.footer__nav nav ul{
+    display: flex;
+    gap: 2rem;
+}
