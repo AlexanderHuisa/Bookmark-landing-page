@@ -1,8 +1,18 @@
 .main{
-    max-width: 1440px;
-    margin: 0 auto;
 
     &__features{
         text-align: center;
+    }
+}
+
+.main__estadistic{
+    height: 20rem;
+    background-color: $color-primario;
+    color: $color-claro;
+    &-div{
+        max-width: 1440px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 5% 0;
     }
 }

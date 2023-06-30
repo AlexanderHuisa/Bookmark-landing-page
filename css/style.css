@@ -537,12 +537,20 @@ body {
   border-radius: 5px;
 }
 
-.main {
-  max-width: 1440px;
-  margin: 0 auto;
-}
 .main__features {
   text-align: center;
+}
+
+.main__estadistic {
+  height: 20rem;
+  background-color: #5166DD;
+  color: #FFF;
+}
+.main__estadistic-div {
+  max-width: 1440px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 5% 0;
 }
 
 .footer {
