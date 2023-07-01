@@ -517,13 +517,12 @@ body {
 }
 
 .btn {
-  width: 10rem;
-  height: 2.5rem;
   border-radius: 5px;
   border: none;
   -webkit-box-shadow: 2px 2px 5px rgba(84, 83, 83, 0.41);
           box-shadow: 2px 2px 5px rgba(84, 83, 83, 0.41);
   cursor: pointer;
+  padding: 0.8rem 1.6rem;
 }
 .btn-principal {
   background-color: rgb(93, 93, 242);

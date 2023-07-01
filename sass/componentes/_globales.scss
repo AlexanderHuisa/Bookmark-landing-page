@@ -8,6 +8,12 @@ $color-silver:#A2A3A9;
 $color-barra:#FA5856;
 $color-claro: #FFF;
 
+@mixin tarjet {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+  }
+
 body{
 	color: $color-secundario;
 	
