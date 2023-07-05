@@ -4,7 +4,21 @@
     margin: 0 auto;
     &__options{
         display: flex;
-        justify-content: space-around;
+        gap: 3rem;
+        justify-content: center;
+        &--chrome{
+            @include tarjet;
+        }
+        
+        &--firefox{
+            @include tarjet;
+            margin-top: 4rem;
+        }
+        
+        &--opera{
+            @include tarjet;
+            margin-top: 8rem;
+        }
         
     }
 }

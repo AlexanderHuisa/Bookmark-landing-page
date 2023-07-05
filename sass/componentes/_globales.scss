@@ -9,9 +9,10 @@ $color-barra:#FA5856;
 $color-claro: #FFF;
 
 @mixin tarjet {
-	margin: 0;
-	padding: 0;
-	list-style: none;
+	height: 25rem;
+	width: 20rem;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px rgba(84, 83, 83, 0.41);
   }
 
 body{

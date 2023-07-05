@@ -579,8 +579,33 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  gap: 3rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.main__extention__options--chrome {
+  height: 25rem;
+  width: 20rem;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 10px rgba(84, 83, 83, 0.41);
+          box-shadow: 5px 5px 10px rgba(84, 83, 83, 0.41);
+}
+.main__extention__options--firefox {
+  height: 25rem;
+  width: 20rem;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 10px rgba(84, 83, 83, 0.41);
+          box-shadow: 5px 5px 10px rgba(84, 83, 83, 0.41);
+  margin-top: 4rem;
+}
+.main__extention__options--opera {
+  height: 25rem;
+  width: 20rem;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 10px rgba(84, 83, 83, 0.41);
+          box-shadow: 5px 5px 10px rgba(84, 83, 83, 0.41);
+  margin-top: 8rem;
 }
 
 .footer {
