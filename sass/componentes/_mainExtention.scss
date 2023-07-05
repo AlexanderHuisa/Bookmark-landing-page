@@ -1,0 +1,10 @@
+.main__extention{
+    text-align: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    &__options{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+}
