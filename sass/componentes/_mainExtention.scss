@@ -1,7 +1,17 @@
 .main__extention{
     text-align: center;
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 10rem auto;
+    &--tittle{
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;   
+    }
+    &--info{
+        width: 50%;
+        font-size: 1.5rem;
+        margin: 2rem auto 6rem auto;
+        color: $color-silver;
+    }
     &__options{
         display: flex;
         gap: 3rem;
@@ -14,6 +24,7 @@
             }
             & p{
                 font-size: 1.2rem;
+                color: $color-silver;
             }
             & img{
                 width: 120px;
@@ -29,6 +40,7 @@
             }
             & p{
                 font-size: 1.2rem;
+                color: $color-silver;
             }
             & img{
                 width: 120px;
@@ -38,12 +50,14 @@
         &--opera{
             @include tarjet;
             margin-top: 8rem;
+            
             & h3{
                 margin-top: 30px;
                 font-size: 1.5rem;
             }
             & p{
                 font-size: 1.2rem;
+                color: $color-silver;
             }
             & img{
                 width: 120px;

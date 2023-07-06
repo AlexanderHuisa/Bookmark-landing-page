@@ -573,7 +573,17 @@ body {
 .main__extention {
   text-align: center;
   max-width: 1440px;
-  margin: 0 auto;
+  margin: 10rem auto;
+}
+.main__extention--tittle {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+.main__extention--info {
+  width: 50%;
+  font-size: 1.5rem;
+  margin: 2rem auto 6rem auto;
+  color: #A2A3A9;
 }
 .main__extention__options {
   display: -webkit-box;
@@ -610,6 +620,7 @@ body {
 }
 .main__extention__options--chrome p {
   font-size: 1.2rem;
+  color: #A2A3A9;
 }
 .main__extention__options--chrome img {
   width: 120px;
@@ -641,6 +652,7 @@ body {
 }
 .main__extention__options--firefox p {
   font-size: 1.2rem;
+  color: #A2A3A9;
 }
 .main__extention__options--firefox img {
   width: 120px;
@@ -672,6 +684,7 @@ body {
 }
 .main__extention__options--opera p {
   font-size: 1.2rem;
+  color: #A2A3A9;
 }
 .main__extention__options--opera img {
   width: 120px;
