@@ -8,17 +8,57 @@
         justify-content: center;
         &--chrome{
             @include tarjet;
+            & h3{
+                margin-top: 30px;
+                font-size: 1.5rem;
+            }
+            & p{
+                font-size: 1.2rem;
+            }
+            & img{
+                width: 120px;
+            }
         }
         
         &--firefox{
             @include tarjet;
             margin-top: 4rem;
+            & h3{
+                margin-top: 30px;
+                font-size: 1.5rem;
+            }
+            & p{
+                font-size: 1.2rem;
+            }
+            & img{
+                width: 120px;
+            }
         }
         
         &--opera{
             @include tarjet;
             margin-top: 8rem;
+            & h3{
+                margin-top: 30px;
+                font-size: 1.5rem;
+            }
+            & p{
+                font-size: 1.2rem;
+            }
+            & img{
+                width: 120px;
+            }
         }
         
     }
+}
+
+.btn-extension{
+    font-size: 1.2rem;
+}
+.puntos{
+    letter-spacing: .75rem;
+    font-size: 2rem;
+    text-align: center;
+    color: $color-silver;
 }

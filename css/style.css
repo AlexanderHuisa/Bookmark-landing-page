@@ -586,26 +586,106 @@ body {
 }
 .main__extention__options--chrome {
   height: 25rem;
-  width: 20rem;
+  width: 19.6rem;
   border-radius: 10px;
   -webkit-box-shadow: 5px 5px 10px rgba(84, 83, 83, 0.41);
           box-shadow: 5px 5px 10px rgba(84, 83, 83, 0.41);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.main__extention__options--chrome h3 {
+  margin-top: 30px;
+  font-size: 1.5rem;
+}
+.main__extention__options--chrome p {
+  font-size: 1.2rem;
+}
+.main__extention__options--chrome img {
+  width: 120px;
 }
 .main__extention__options--firefox {
   height: 25rem;
-  width: 20rem;
+  width: 19.6rem;
   border-radius: 10px;
   -webkit-box-shadow: 5px 5px 10px rgba(84, 83, 83, 0.41);
           box-shadow: 5px 5px 10px rgba(84, 83, 83, 0.41);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 4rem;
+}
+.main__extention__options--firefox h3 {
+  margin-top: 30px;
+  font-size: 1.5rem;
+}
+.main__extention__options--firefox p {
+  font-size: 1.2rem;
+}
+.main__extention__options--firefox img {
+  width: 120px;
 }
 .main__extention__options--opera {
   height: 25rem;
-  width: 20rem;
+  width: 19.6rem;
   border-radius: 10px;
   -webkit-box-shadow: 5px 5px 10px rgba(84, 83, 83, 0.41);
           box-shadow: 5px 5px 10px rgba(84, 83, 83, 0.41);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 8rem;
+}
+.main__extention__options--opera h3 {
+  margin-top: 30px;
+  font-size: 1.5rem;
+}
+.main__extention__options--opera p {
+  font-size: 1.2rem;
+}
+.main__extention__options--opera img {
+  width: 120px;
+}
+
+.btn-extension {
+  font-size: 1.2rem;
+}
+
+.puntos {
+  letter-spacing: 0.75rem;
+  font-size: 2rem;
+  text-align: center;
+  color: #A2A3A9;
 }
 
 .footer {
