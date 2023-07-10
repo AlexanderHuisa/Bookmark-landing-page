@@ -462,6 +462,19 @@ body {
   color: black;
 }
 
+.decoration-body {
+  position: absolute;
+  width: 35rem;
+  height: 25rem;
+  background-color: #5166DD;
+  z-index: -1;
+  top: 25%;
+  border-radius: 50% 0 0 50%;
+  left: 100%;
+  -webkit-transform: translate(-100%, 0);
+          transform: translate(-100%, 0);
+}
+
 .header {
   max-width: 1440px;
   margin: 0 auto;

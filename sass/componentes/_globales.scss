@@ -24,5 +24,18 @@ body{
 	
 }
 
+.decoration-body{
+	position: absolute;
+	width: 35rem;
+	height: 25rem;
+	background-color: $color-primario;
+	z-index: -1;
+	top: 25%;
+	border-radius: 50% 0 0 50%;
+	left: 100%;
+	transform: translate(-100%, 0);
+
+}
+
 
 
