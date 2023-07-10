@@ -32,7 +32,16 @@
         align-items: center;
 
         &--info{
-            width: 50%  ;
+            width: 50%;
+
+            & h1 {
+                font-size: 3.5rem;
+            }
+            & p {
+                margin: 3rem 0;
+                font-size: 1.7rem;
+                color: $color-silver;
+            }
         }
 
         &--img img{

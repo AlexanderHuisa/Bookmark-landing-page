@@ -523,6 +523,14 @@ body {
 .header__content--info {
   width: 50%;
 }
+.header__content--info h1 {
+  font-size: 3.5rem;
+}
+.header__content--info p {
+  margin: 3rem 0;
+  font-size: 1.7rem;
+  color: #A2A3A9;
+}
 .header__content--img img {
   -webkit-box-shadow: 0 0 2px 15px rgba(54, 52, 52, 0.987);
           box-shadow: 0 0 2px 15px rgba(54, 52, 52, 0.987);
