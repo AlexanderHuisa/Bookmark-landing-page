@@ -508,7 +508,9 @@ body {
   margin-right: 3rem;
 }
 .header__hero--nav li a {
+  color: black;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .header__content {
   display: -webkit-box;
@@ -550,11 +552,16 @@ body {
   color: white;
   margin-right: 15px;
 }
-.btn-red {
+
+#btn-red {
+  color: white;
   padding: 0.5rem 1.6rem;
   background-color: rgb(255, 0, 0);
-  color: white;
   border-radius: 5px;
+}
+
+.logo-header {
+  fill: black;
 }
 
 .main__features {

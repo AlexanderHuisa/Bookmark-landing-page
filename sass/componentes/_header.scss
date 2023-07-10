@@ -21,7 +21,9 @@
                 margin-right: 3rem;
             }
             & li a{
+                color: $color-secundario;
                 text-transform: uppercase;
+                text-decoration: none;
             }
         }
     }
@@ -62,13 +64,17 @@
         color: white;
         margin-right: 15px;
     }
-    &-red{
-        padding: .5rem 1.6rem;
-        background-color: rgb(255, 0, 0);
-        color: white;
-        border-radius: 5px;
-    }
 }
 
+#btn-red{
+    color: white;
+    padding: .5rem 1.6rem;
+    background-color: rgb(255, 0, 0);
+    border-radius: 5px;
+}
+
+.logo-header{
+    fill: $color-secundario;
+}
 
 
