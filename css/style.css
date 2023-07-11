@@ -626,6 +626,30 @@ body {
 .main__features__nav-item {
   color: black;
 }
+.main__features__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 5rem auto;
+  gap: 10rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.main__features__content img {
+  width: 100%;
+}
+.main__features__content-info {
+  text-align: left;
+}
+.main__features__content-info h2 {
+  font-size: 2.2rem;
+}
+.main__features__content-info p {
+  margin: 2rem 0;
+  font-size: 1.5rem;
+  color: #A2A3A9;
+}
 
 .main__extention {
   text-align: center;
