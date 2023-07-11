@@ -1,0 +1,27 @@
+.main__features{
+    max-width: 1440px;
+    margin: 0 auto;
+
+    &--tittle{
+        font-size: 2.5rem;
+    }
+
+    &--info{
+        width: 45rem;
+        margin: 3rem auto;
+        font-size: 1.7rem;
+        color: $color-silver;
+    }
+
+    &__nav{
+        display: flex;
+        justify-content: center;
+        gap: 10rem;
+        font-size: 1.5rem;
+        text-decoration: none;
+        margin: 2rem 0;
+        &-item{
+            color: $color-secundario;
+        }
+    }
+}

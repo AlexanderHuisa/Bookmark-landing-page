@@ -598,6 +598,35 @@ body {
   margin-right: 5px;
 }
 
+.main__features {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.main__features--tittle {
+  font-size: 2.5rem;
+}
+.main__features--info {
+  width: 45rem;
+  margin: 3rem auto;
+  font-size: 1.7rem;
+  color: #A2A3A9;
+}
+.main__features__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  margin: 2rem 0;
+}
+.main__features__nav-item {
+  color: black;
+}
+
 .main__extention {
   text-align: center;
   max-width: 1440px;
