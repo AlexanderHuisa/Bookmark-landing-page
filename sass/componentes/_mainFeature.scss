@@ -50,3 +50,14 @@
         }
     }
 }
+
+.decoration-features{
+    position: absolute;
+	width: 35rem;
+	height: 25rem;
+	background-color: $color-primario;
+	z-index: -1;
+    top: 72%;
+    left: 0;
+    border-radius: 0 50% 50% 0;
+}

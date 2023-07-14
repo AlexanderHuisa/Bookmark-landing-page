@@ -651,6 +651,17 @@ body {
   color: #A2A3A9;
 }
 
+.decoration-features {
+  position: absolute;
+  width: 35rem;
+  height: 25rem;
+  background-color: #5166DD;
+  z-index: -1;
+  top: 72%;
+  left: 0;
+  border-radius: 0 50% 50% 0;
+}
+
 .main__extention {
   text-align: center;
   max-width: 1440px;
