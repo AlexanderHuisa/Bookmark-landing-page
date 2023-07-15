@@ -9,9 +9,24 @@
     &--info{
         width: 80%;
         font-size: 1.5rem;
-        margin: 2rem auto 3rem auto;
+        margin: 2rem auto 5rem auto;
         color: $color-silver;
         text-align: center;
+    }
+
+    &__questions--tittle{
+        margin: 1rem 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 100;
+        & h3{
+            font-size: 1.5rem;
+        }
+        & img{
+            height: 1rem;
+            margin-right: 1.5rem;
+        }
     }
 }
 
