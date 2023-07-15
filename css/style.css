@@ -791,6 +791,28 @@ body {
   width: 100%;
 }
 
+.main__asked {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.main__asked--tittle {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.main__asked--info {
+  width: 80%;
+  font-size: 1.5rem;
+  margin: 2rem auto 3rem auto;
+  color: #A2A3A9;
+  text-align: center;
+}
+
+.btn-asked {
+  font-size: 1.3rem;
+  margin: 4rem 0;
+}
+
 .footer {
   width: 100%;
   margin: 0 auto;
