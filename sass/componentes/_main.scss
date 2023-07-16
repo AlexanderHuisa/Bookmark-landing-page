@@ -6,14 +6,13 @@
 }
 
 .main__estadistic{
-    height: 25rem;
     background-color: $color-primario;
     color: $color-claro;
     &-div{
         max-width: 1440px;
         margin: 0 auto;
         text-align: center;
-        padding: 5% 0;
+        padding: 3% 0;
 
         &-tittle{
             text-transform: uppercase;

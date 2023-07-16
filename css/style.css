@@ -569,7 +569,6 @@ body {
 }
 
 .main__estadistic {
-  height: 25rem;
   background-color: #5166DD;
   color: #FFF;
 }
@@ -577,7 +576,7 @@ body {
   max-width: 1440px;
   margin: 0 auto;
   text-align: center;
-  padding: 5% 0;
+  padding: 3% 0;
 }
 .main__estadistic-div-tittle {
   text-transform: uppercase;
@@ -807,10 +806,14 @@ body {
   color: #A2A3A9;
   text-align: center;
 }
-.main__asked__questions--tittle {
-  margin: 1rem 0;
+.main__asked__questions--tittle-button {
+  width: 100%;
+  border: none;
+  background-color: #FFF;
   display: -webkit-box;
   display: -ms-flexbox;
+  display: flex;
+  margin: 1rem 0;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -819,11 +822,12 @@ body {
       -ms-flex-align: center;
           align-items: center;
   font-weight: 100;
+  cursor: pointer;
 }
-.main__asked__questions--tittle h3 {
+.main__asked__questions--tittle-button h3 {
   font-size: 1.5rem;
 }
-.main__asked__questions--tittle img {
+.main__asked__questions--tittle-button img {
   height: 1rem;
   margin-right: 1.5rem;
 }
