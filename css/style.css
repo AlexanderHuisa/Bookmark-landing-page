@@ -627,12 +627,16 @@ body {
 }
 .main__features__nav-item {
   color: black;
+  position: relative;
 }
 .main__features__nav-item::after {
+  position: absolute;
   background-color: red;
-  width: 20rem;
-  height: 2rem;
-  left: 20%;
+  content: "";
+  width: 130%;
+  height: 0.5rem;
+  left: -15%;
+  top: 160%;
 }
 .main__features__nav a {
   text-decoration: none;
@@ -674,7 +678,7 @@ body {
 }
 
 .line__features {
-  max-width: 70%;
+  max-width: 65%;
   color: red;
 }
 
