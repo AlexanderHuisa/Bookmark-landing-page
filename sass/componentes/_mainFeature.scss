@@ -28,10 +28,11 @@
             position: absolute;
             background-color: red;
             content: "";
-            width: 130%;
+            width: 20rem;
             height: .5rem;
-            left: -15%;
+            left: 50%;
             top: 160%;
+            transform: translate(-50%,0);
         }
 
         & a{

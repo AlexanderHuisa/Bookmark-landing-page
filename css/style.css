@@ -633,10 +633,12 @@ body {
   position: absolute;
   background-color: red;
   content: "";
-  width: 130%;
+  width: 20rem;
   height: 0.5rem;
-  left: -15%;
+  left: 50%;
   top: 160%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
 }
 .main__features__nav a {
   text-decoration: none;
