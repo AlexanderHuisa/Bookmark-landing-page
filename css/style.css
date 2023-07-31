@@ -464,11 +464,11 @@ body {
 
 .decoration-body {
   position: absolute;
-  width: 35rem;
-  height: 25rem;
+  width: 30rem;
+  height: 20rem;
   background-color: #5166DD;
   z-index: -1;
-  top: 25%;
+  top: 35%;
   border-radius: 50% 0 0 50%;
   left: 100%;
   -webkit-transform: translate(-100%, 0);
@@ -628,9 +628,11 @@ body {
 }
 .main__features__nav-item {
   color: black;
+}
+.main__features__nav--sub-line {
   position: relative;
 }
-.main__features__nav-item::after {
+.main__features__nav--sub-line::after {
   position: absolute;
   background-color: red;
   content: "";
@@ -671,18 +673,18 @@ body {
 
 .decoration-features {
   position: absolute;
-  width: 35rem;
-  height: 25rem;
+  width: 30rem;
+  height: 20rem;
   background-color: #5166DD;
   z-index: -1;
-  top: 72%;
+  top: 118%;
   left: 0;
   border-radius: 0 50% 50% 0;
 }
 
 .line__features {
   margin-top: -5px;
-  max-width: 75%;
+  max-width: 60rem;
   color: #A2A3A9;
   background-color: #A2A3A9;
 }
@@ -704,7 +706,7 @@ body {
 .main__extention {
   text-align: center;
   max-width: 1440px;
-  margin: 10rem auto;
+  margin: 2rem auto;
 }
 .main__extention--tittle {
   font-size: 2.5rem;
