@@ -624,6 +624,7 @@ body {
   font-size: 1.5rem;
   text-decoration: none;
   margin: 2rem 0;
+  cursor: pointer;
 }
 .main__features__nav-item {
   color: black;
@@ -680,8 +681,24 @@ body {
 }
 
 .line__features {
-  max-width: 65%;
-  color: red;
+  margin-top: -5px;
+  max-width: 75%;
+  color: #A2A3A9;
+  background-color: #A2A3A9;
+}
+
+.feature__content--simple-bookmarking {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.feature__content--speedy-searching {
+  display: none;
+}
+
+.feature__content--easy-sharing {
+  display: none;
 }
 
 .main__extention {

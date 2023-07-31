@@ -7,17 +7,17 @@ const divSpeedyS = document.querySelector('.feature__content--speedy-searching')
 const divEasyS = document.querySelector('.feature__content--easy-sharing');
 
 BtnSimpleBookmarking.addEventListener('click',()=>{
-    divSimpleB.style.display = 'block';
+    divSimpleB.style.display = 'inline-flex';
     divSpeedyS.style.display = 'none';
     divEasyS.style.display = 'none';
 })
 BtnSpeedySearching.addEventListener('click',()=>{
     divSimpleB.style.display = 'none';
-    divSpeedyS.style.display = 'block';
+    divSpeedyS.style.display = 'inline-flex';
     divEasyS.style.display = 'none';
 })
 BtnEasySharing.addEventListener('click',()=>{
     divSimpleB.style.display = 'none';
     divSpeedyS.style.display = 'none';
-    divEasyS.style.display = 'block';
+    divEasyS.style.display = 'inline-flex';
 })

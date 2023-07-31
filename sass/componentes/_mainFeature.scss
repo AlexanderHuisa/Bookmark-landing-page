@@ -20,6 +20,7 @@
         font-size: 1.5rem;
         text-decoration: none;
         margin: 2rem 0;
+        cursor: pointer;
         &-item{
             color: $color-secundario;
             position: relative;
@@ -78,6 +79,19 @@
 }
 
 .line__features{
-    max-width: 65%;
-    color: red;
+    margin-top: -5px;
+    max-width: 75%;
+    color: $color-silver;
+    background-color: $color-silver;
+}
+
+.feature__content--simple-bookmarking{
+    display: inline-flex;
+}
+.feature__content--speedy-searching{
+    display: none;
+}
+
+.feature__content--easy-sharing{
+    display: none;
 }
