@@ -1,6 +1,18 @@
 .main__asked{
     max-width: 800px;
     margin: 0 auto;
+    &--parrafo-one{
+        display: none;
+    }
+    &--parrafo-two{
+        display: none;
+    }
+    &--parrafo-three{
+        display: none;
+    }
+    &--parrafo-four{
+        display: none;
+    }
     &--tittle{
         font-size: 2.5rem;
         margin-bottom: 1.5rem;
@@ -19,19 +31,13 @@
         background-color: $color-claro;
         display: flex;
         margin: 1rem 0;
-        display: flex;
         justify-content: space-between;
         align-items: center;
         font-weight: 100;
-        outline: none;
         cursor: pointer;
         
         & h3{
             font-size: 1.5rem;
-        }
-        & img{
-            height: 1rem;
-            margin-right: 1.5rem;
         }
     }
 }
@@ -39,4 +45,33 @@
 .btn-asked{
     font-size: 1.3rem;
     margin: 4rem 0;
+}
+
+.arrow-one{
+    background-image: url(../../images/icon-arrow.svg);
+    background-repeat: no-repeat;
+    height: 3rem;
+    width: 3rem;
+    margin-right: 2rem;
+}
+.arrow-two{
+    background-image: url(../../images/icon-arrow.svg);
+    background-repeat: no-repeat;
+    height: 3rem;
+    width: 3rem;
+    margin-right: 2rem;
+}
+.arrow-three{
+    background-image: url(../../images/icon-arrow.svg);
+    background-repeat: no-repeat;
+    height: 3rem;
+    width: 3rem;
+    margin-right: 2rem;
+}
+.arrow-four{
+    background-image: url(../../images/icon-arrow.svg);
+    background-repeat: no-repeat;
+    height: 3rem;
+    width: 3rem;
+    margin-right: 2rem;
 }
