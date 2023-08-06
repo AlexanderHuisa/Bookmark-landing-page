@@ -11,6 +11,9 @@
         &--nav {
             height: 100%;
             // background-color: green;
+            @include media(tablet-l-only){
+                display: none;
+            }
             & ul{
                 display: flex;
                 height: 100%;
