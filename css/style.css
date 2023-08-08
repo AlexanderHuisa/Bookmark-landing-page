@@ -480,8 +480,9 @@ body {
   margin: 0 auto;
 }
 .header__hero {
-  position: sticky;
-  top: 2%;
+  max-width: 1440px;
+  position: fixed;
+  width: 100%;
   z-index: 500;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1011,6 +1012,20 @@ body {
   }
 }
 
+.hamburger:hover .line:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger:hover .line:nth-child(1) {
+  -webkit-transform: translate(0px, 15px) rotate(45deg);
+          transform: translate(0px, 15px) rotate(45deg);
+}
+
+.hamburger:hover .line:nth-child(3) {
+  -webkit-transform: translate(-1px, -5px) rotate(-45deg);
+          transform: translate(-1px, -5px) rotate(-45deg);
+}
+
 .line {
   display: block;
   height: 5px;
@@ -1018,4 +1033,6 @@ body {
   background-color: black;
   margin: 5px auto;
   border-radius: 10px;
+  -webkit-transition: all 0.3 ease-in-out;
+  transition: all 0.3 ease-in-out;
 }

@@ -21,8 +21,21 @@
 
     @include media(tablet-l-only){
         display: block;
+
     }
 }
+
+
+.hamburger:hover .line:nth-child(2){
+    opacity: 0;
+  }
+.hamburger:hover .line:nth-child(1){
+    transform: translate(0px, 15px) rotate(45deg);
+  }
+.hamburger:hover .line:nth-child(3){
+    transform: translate(-1px, -5px) rotate(-45deg);
+  }
+
 
 .line{
     display: block;
@@ -31,4 +44,6 @@
     background-color: $color-secundario;
     margin: 5px auto;
     border-radius: 10px;
+    -webkit-transition: all 0.3 ease-in-out;
+    transition: all 0.3 ease-in-out;
 }

@@ -4,8 +4,9 @@
     
     &__hero{
         // background-color: red;
-        position: sticky;
-        top: 2%;
+        max-width: 1440px;
+        position: fixed;
+        width: 100%;
         z-index: 500;
         display: flex;
         justify-content: space-between;
