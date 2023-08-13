@@ -3,18 +3,32 @@
         position: fixed;
         top: 8%;    
         width: 100%;
-        background-color: rgba(1, 1, 1, 0.29);
+        background-color: #242946ec;
         left: -100%;
         transition: 0.3s ease;
+        margin-top: -0.8rem;
     }
+
+    
 
     &-items{
         @include media(tablet-l-only){
+            position: relative;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             width: 100%;
         }
+    }
+    &-tiems::after{
+        position: absolute;
+        background-color: red;
+        content: "";
+        width: 20rem;
+        height: .5rem;
+        left: 50%;
+        top: 160%;
+        transform: translate(-50%,0);
     }
 }
 
