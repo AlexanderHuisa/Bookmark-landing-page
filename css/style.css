@@ -494,6 +494,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   padding: 2rem 0;
+  background-color: #FFF;
 }
 .header__hero--nav {
   height: 100%;
@@ -556,8 +557,8 @@ body {
   margin-right: 15px;
 }
 
-#btn-red {
-  color: white;
+.btn-red {
+  color: white !important;
   padding: 0.8rem 2.5rem;
   background-color: rgb(255, 0, 0);
   border-radius: 5px;
@@ -985,11 +986,21 @@ body {
     position: fixed;
     top: 8%;
     width: 100%;
-    background-color: rgba(36, 41, 70, 0.9254901961);
+    background-color: rgba(36, 41, 70, 0.9490196078);
     left: -100%;
     -webkit-transition: 0.3s ease;
     transition: 0.3s ease;
     margin-top: -0.8rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 @media only screen and (max-width: 1175px) {
@@ -1018,6 +1029,23 @@ body {
   top: 160%;
   -webkit-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
+}
+
+.network__icon {
+  display: none !important;
+}
+@media only screen and (max-width: 1175px) {
+  .network__icon {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+}
+
+@media only screen and (max-width: 1175px) {
+  .link-a {
+    color: white !important;
+  }
 }
 
 @media only screen and (max-width: 1175px) {
@@ -1059,4 +1087,13 @@ body {
 .hamburger.actived .line:nth-child(3) {
   -webkit-transform: translateY(-8px) rotate(-45deg);
           transform: translateY(-8px) rotate(-45deg);
+}
+
+@media only screen and (max-width: 1175px) {
+  #btn-darkblue {
+    background-color: #242946;
+    border: 2px solid;
+    padding: 0.6rem 7rem;
+    font-weight: 500;
+  }
 }
