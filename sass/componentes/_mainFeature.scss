@@ -7,20 +7,27 @@
     }
 
     &--info{
-        width: 45rem;
         margin: 3rem auto;
         font-size: 1.7rem;
         color: $color-silver;
+        @include media(tablet-l-only){
+            padding: 0 2rem;
+        }
     }
 
     &__nav{
         display: flex;
+        
         justify-content: center;
         gap: 10rem;
         font-size: 1.5rem;
         text-decoration: none;
         margin: 2rem 0;
         cursor: pointer;
+        @include media(tablet-l-only){
+            flex-direction: column;
+            gap: 3rem;
+        }
         &-item{
             color: $color-secundario;
         }
@@ -48,6 +55,10 @@
         margin: 5rem auto;
         gap: 10rem;
         align-items: center;
+        @include media(tablet-l-only){
+            gap: 5rem;
+            flex-direction: column;
+        }
 
         & img{
             width: 100%;
@@ -55,15 +66,22 @@
 
         &-info{
             text-align: left;
+            @include media(tablet-l-only){
+                text-align: center;
+            }
 
             & h2{
                 font-size: 2.2rem;
+               
             }
 
             & p{
                 margin: 2rem 0;
                 font-size: 1.5rem;
                 color: $color-silver;
+                @include media(tablet-l-only){
+                    padding: 0 2rem;
+                }
             }
         }
     }
@@ -75,9 +93,12 @@
 	height: 20rem;
 	background-color: $color-primario;
 	z-index: -1;
-    top: 118%;
+    top: 85%;
     left: 0;
     border-radius: 0 50% 50% 0;
+    @include media(tablet-l-only){
+		top: 170%;
+    }
 }
 
 .line__features{
@@ -86,6 +107,20 @@
     color: $color-silver;
     background-color: $color-silver;
     transition: 0.7s ease;
+}
+.line__mobile{
+    display: none;
+    @include media(tablet-l-only){
+        display: block;
+        width: 100%;
+        margin-top: -1.5rem;
+    }
+}
+.line__mobile-principal{
+    display: none;
+    @include media(tablet-l-only){
+        display: block;
+    }
 }
 
 .feature__content--simple-bookmarking{

@@ -1,5 +1,4 @@
 .main{
-    background-color: yellow;
     padding: 0 1rem;
     &__features{
         text-align: center;
@@ -9,6 +8,7 @@
 .main__estadistic{
     background-color: $color-primario;
     color: $color-claro;
+    margin: 0 -1rem;
     &-div{
         max-width: 1440px;
         margin: 0 auto;

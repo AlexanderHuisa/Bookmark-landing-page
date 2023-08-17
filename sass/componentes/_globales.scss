@@ -31,10 +31,13 @@ body{
 	height: 20rem;
 	background-color: $color-primario;
 	z-index: -1;
-	top: 35%;
+	top: 25%;
 	border-radius: 50% 0 0 50%;
 	left: 100%;
 	transform: translate(-100%, 0);
+	@include media(tablet-l-only){
+		top: 43%;
+    }
 
 }
 
