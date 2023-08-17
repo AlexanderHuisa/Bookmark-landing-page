@@ -478,11 +478,13 @@ body {
 .header {
   max-width: 1440px;
   margin: 0 auto;
+  background-color: cyan;
+  padding: 0 1rem;
 }
 .header__hero {
   max-width: 1440px;
-  position: fixed;
   width: 100%;
+  position: fixed;
   z-index: 500;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -493,8 +495,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 2rem 0;
-  background-color: #FFF;
+  padding: 2rem 1rem;
+  background-color: red;
+  margin: 0 0 0 -1rem;
 }
 .header__hero--nav {
   height: 100%;
@@ -571,6 +574,10 @@ body {
   fill: black;
 }
 
+.main {
+  background-color: yellow;
+  padding: 0 1rem;
+}
 .main__features {
   text-align: center;
 }
@@ -984,7 +991,7 @@ body {
 @media only screen and (max-width: 1175px) {
   .header__hero--nav {
     position: fixed;
-    top: 8%;
+    top: 6%;
     width: 100%;
     background-color: rgba(36, 41, 70, 0.9490196078);
     left: -100%;

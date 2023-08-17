@@ -1,18 +1,22 @@
 .header{
     max-width: 1440px;
     margin:  0 auto;
+    background-color: cyan;
+    padding: 0 1rem;
     
     &__hero{
         // background-color: red;
         max-width: 1440px;
-        position: fixed;
         width: 100%;
+        position: fixed;
         z-index: 500;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 2rem 0;
-        background-color: $color-claro;
+        padding: 2rem 1rem;
+        background-color: red;
+        margin: 0 0 0 -1rem;
+        
         &--nav {
             
             height: 100%;
