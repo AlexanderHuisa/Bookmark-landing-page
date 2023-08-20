@@ -38,6 +38,10 @@
   @else if $breakpoint == tablet-l-only {  
     @media only screen and (max-width: 1175px){ @content; }  
   } 
+  //modificado new_size
+  @else if $breakpoint == mobile-xl {  
+    @media only screen and (max-width: 660px){ @content; }  
+  } 
   
   @else if $breakpoint == desktop-s-only {  
     @media only screen and (min-width: 768px) and (max-width: 1200px) { @content; }  

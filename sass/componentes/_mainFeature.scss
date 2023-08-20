@@ -99,6 +99,11 @@
     @include media(tablet-l-only){
 		top: 170%;
     }
+    @include media(mobile-xl){
+        top: 205%;
+        width: 20rem;
+        height: 15rem;
+     }
 }
 
 .line__features{

@@ -39,6 +39,11 @@ body{
 		top: 43%;
     }
 
+	@include media(mobile-xl){
+        width: 20rem;
+        height: 15rem;
+     }
+
 }
 
 

@@ -6,9 +6,9 @@
     &__hero{
         // background-color: red;
         max-width: 1440px;
-        width: 100%;
+        width: 100vw;
         position: fixed;
-        z-index: 500;
+        z-index: 1;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -48,6 +48,10 @@
             height: 100vh;
             justify-content: center;
         }
+
+        @include media(mobile-xl){
+            height: 100%;
+         }
         &--info{
             width: 50%;
             @include media(tablet-l-only){
@@ -78,6 +82,9 @@
                 width: 100%;
                 text-align: center;
             }
+            @include media(mobile-xl){
+                margin: 10rem 0 5rem 0;
+             }
         }
     }
 }
