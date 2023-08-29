@@ -568,6 +568,11 @@ body {
 .header__content--info h1 {
   font-size: 3.5rem;
 }
+@media only screen and (max-width: 400px) {
+  .header__content--info h1 {
+    font-size: 2rem;
+  }
+}
 .header__content--info p {
   margin: 3rem 0;
   font-size: 1.7rem;
@@ -576,6 +581,11 @@ body {
 @media only screen and (max-width: 1175px) {
   .header__content--info p {
     padding: 0 2rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .header__content--info p {
+    font-size: 1rem;
   }
 }
 .header__content--img img {
@@ -595,6 +605,11 @@ body {
     margin: 10rem 0 5rem 0;
   }
 }
+@media only screen and (max-width: 400px) {
+  .header__content--img {
+    width: 85%;
+  }
+}
 
 .btn {
   border-radius: 5px;
@@ -609,6 +624,11 @@ body {
   color: white;
   margin-right: 15px;
 }
+@media only screen and (max-width: 400px) {
+  .btn {
+    font-size: 0.8rem;
+  }
+}
 
 .btn-red {
   color: white !important;
@@ -618,6 +638,13 @@ body {
   font-weight: bold;
   -webkit-box-shadow: 1px 1px 2px rgba(84, 83, 83, 0.41);
           box-shadow: 1px 1px 2px rgba(84, 83, 83, 0.41);
+}
+@media only screen and (max-width: 400px) {
+  .btn-red {
+    margin-top: 1.5rem;
+    width: 82%;
+    border-radius: 10px;
+  }
 }
 
 .logo-header {
@@ -667,6 +694,12 @@ body {
 .main__features--tittle {
   font-size: 2.5rem;
 }
+@media only screen and (max-width: 400px) {
+  .main__features--tittle {
+    margin-top: 5rem;
+    font-size: 2rem;
+  }
+}
 .main__features--info {
   margin: 3rem auto;
   font-size: 1.7rem;
@@ -675,6 +708,11 @@ body {
 @media only screen and (max-width: 1175px) {
   .main__features--info {
     padding: 0 2rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .main__features--info {
+    font-size: 1rem;
   }
 }
 .main__features__nav {
@@ -699,6 +737,13 @@ body {
     gap: 3rem;
   }
 }
+@media only screen and (max-width: 400px) {
+  .main__features__nav {
+    font-size: 1rem;
+    margin: 1rem 0;
+    gap: 2.8rem;
+  }
+}
 .main__features__nav-item {
   color: black;
 }
@@ -715,6 +760,11 @@ body {
   top: 160%;
   -webkit-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
+}
+@media only screen and (max-width: 400px) {
+  .main__features__nav--sub-line::after {
+    width: 8rem;
+  }
 }
 .main__features__nav a {
   text-decoration: none;
@@ -1193,6 +1243,11 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+}
+@media only screen and (max-width: 660px) {
+  .header__hero--nav {
+    margin-top: 1rem;
   }
 }
 @media only screen and (max-width: 1175px) {

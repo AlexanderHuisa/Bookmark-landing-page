@@ -11,6 +11,9 @@
         flex-direction: column;
         align-items: center;
     }
+    @include media(mobile-xl){
+        margin-top: 1rem;
+     }
 
     &-items{
         @include media(tablet-l-only){
