@@ -4,13 +4,20 @@
     margin: 2rem auto;
     &--tittle{
         font-size: 2.5rem;
-        margin-bottom: 1.5rem;   
+        margin-bottom: 1.5rem;
+        @include media(mobile-small){
+            font-size: 1.8rem;
+        }   
     }
     &--info{
         width: 50%;
         font-size: 1.5rem;
         margin: 2rem auto 6rem auto;
         color: $color-silver;
+        @include media(mobile-small){
+            width: 90%;
+            font-size: 1rem;
+        }   
     }
     &__options{
         display: flex;

@@ -88,6 +88,9 @@
 
             & h2{
                 font-size: 2.2rem;
+                @include media(mobile-small){
+                    font-size: 1.8rem;
+                }
                
             }
 
@@ -97,6 +100,9 @@
                 color: $color-silver;
                 @include media(tablet-l-only){
                     padding: 0 2rem;
+                }
+                @include media(mobile-small){
+                    font-size: 1rem;
                 }
             }
         }

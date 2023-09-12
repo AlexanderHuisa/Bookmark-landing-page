@@ -3,20 +3,35 @@
     margin: 0 auto;
     &--parrafo-one{
         display: none;
+        @include media(mobile-small){
+            font-size: .8rem;
+        }
     }
     &--parrafo-two{
         display: none;
+        @include media(mobile-small){
+            font-size: .8rem;
+        }
     }
     &--parrafo-three{
         display: none;
+        @include media(mobile-small){
+            font-size: .8rem;
+        }
     }
     &--parrafo-four{
         display: none;
+        @include media(mobile-small){
+            font-size: .8rem;
+        }
     }
     &--tittle{
         font-size: 2.5rem;
         margin-bottom: 1.5rem;
         text-align: center;
+        @include media(mobile-small){
+            font-size: 1.8rem;
+        }
     }
     &--info{
         width: 80%;
@@ -24,6 +39,9 @@
         margin: 2rem auto 5rem auto;
         color: $color-silver;
         text-align: center;
+        @include media(mobile-small){
+            font-size: 1rem;
+        }
     }
     &__questions--tittle-button{
         width: 100%;
@@ -35,9 +53,13 @@
         align-items: center;
         font-weight: 100;
         cursor: pointer;
+
         
         & h3{
             font-size: 1.5rem;
+            @include media(mobile-small){
+                font-size: .8rem;
+            }
         }
     }
 }
@@ -45,33 +67,34 @@
 .btn-asked{
     font-size: 1.3rem;
     margin: 4rem 0;
+    @include media(mobile-small){
+        font-size: .8rem;
+    }
 }
 
 .arrow-one{
     background-image: url(../../images/icon-arrow.svg);
-    background-repeat: no-repeat;
-    height: 3rem;
-    width: 3rem;
-    margin-right: 2rem;
 }
 .arrow-two{
     background-image: url(../../images/icon-arrow.svg);
-    background-repeat: no-repeat;
-    height: 3rem;
-    width: 3rem;
-    margin-right: 2rem;
 }
 .arrow-three{
     background-image: url(../../images/icon-arrow.svg);
-    background-repeat: no-repeat;
-    height: 3rem;
-    width: 3rem;
-    margin-right: 2rem;
 }
 .arrow-four{
     background-image: url(../../images/icon-arrow.svg);
+    
+}
+
+.arrows{
     background-repeat: no-repeat;
     height: 3rem;
     width: 3rem;
     margin-right: 2rem;
+    @include media(mobile-small){
+        margin: 0 1rem 0 0; 
+        width: 2rem;
+        height: 2rem;
+        background-size: contain;
+    }
 }

@@ -802,6 +802,11 @@ body {
 .main__features__content-info h2 {
   font-size: 2.2rem;
 }
+@media only screen and (max-width: 400px) {
+  .main__features__content-info h2 {
+    font-size: 1.8rem;
+  }
+}
 .main__features__content-info p {
   margin: 2rem 0;
   font-size: 1.5rem;
@@ -810,6 +815,11 @@ body {
 @media only screen and (max-width: 1175px) {
   .main__features__content-info p {
     padding: 0 2rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .main__features__content-info p {
+    font-size: 1rem;
   }
 }
 
@@ -888,11 +898,22 @@ body {
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
 }
+@media only screen and (max-width: 400px) {
+  .main__extention--tittle {
+    font-size: 1.8rem;
+  }
+}
 .main__extention--info {
   width: 50%;
   font-size: 1.5rem;
   margin: 2rem auto 6rem auto;
   color: #A2A3A9;
+}
+@media only screen and (max-width: 400px) {
+  .main__extention--info {
+    width: 90%;
+    font-size: 1rem;
+  }
 }
 .main__extention__options {
   display: -webkit-box;
@@ -1038,19 +1059,44 @@ body {
 .main__asked--parrafo-one {
   display: none;
 }
+@media only screen and (max-width: 400px) {
+  .main__asked--parrafo-one {
+    font-size: 0.8rem;
+  }
+}
 .main__asked--parrafo-two {
   display: none;
+}
+@media only screen and (max-width: 400px) {
+  .main__asked--parrafo-two {
+    font-size: 0.8rem;
+  }
 }
 .main__asked--parrafo-three {
   display: none;
 }
+@media only screen and (max-width: 400px) {
+  .main__asked--parrafo-three {
+    font-size: 0.8rem;
+  }
+}
 .main__asked--parrafo-four {
   display: none;
+}
+@media only screen and (max-width: 400px) {
+  .main__asked--parrafo-four {
+    font-size: 0.8rem;
+  }
 }
 .main__asked--tittle {
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
   text-align: center;
+}
+@media only screen and (max-width: 400px) {
+  .main__asked--tittle {
+    font-size: 1.8rem;
+  }
 }
 .main__asked--info {
   width: 80%;
@@ -1058,6 +1104,11 @@ body {
   margin: 2rem auto 5rem auto;
   color: #A2A3A9;
   text-align: center;
+}
+@media only screen and (max-width: 400px) {
+  .main__asked--info {
+    font-size: 1rem;
+  }
 }
 .main__asked__questions--tittle-button {
   width: 100%;
@@ -1079,42 +1130,51 @@ body {
 .main__asked__questions--tittle-button h3 {
   font-size: 1.5rem;
 }
+@media only screen and (max-width: 400px) {
+  .main__asked__questions--tittle-button h3 {
+    font-size: 0.8rem;
+  }
+}
 
 .btn-asked {
   font-size: 1.3rem;
   margin: 4rem 0;
 }
+@media only screen and (max-width: 400px) {
+  .btn-asked {
+    font-size: 0.8rem;
+  }
+}
 
 .arrow-one {
   background-image: url(../../images/icon-arrow.svg);
-  background-repeat: no-repeat;
-  height: 3rem;
-  width: 3rem;
-  margin-right: 2rem;
 }
 
 .arrow-two {
   background-image: url(../../images/icon-arrow.svg);
-  background-repeat: no-repeat;
-  height: 3rem;
-  width: 3rem;
-  margin-right: 2rem;
 }
 
 .arrow-three {
   background-image: url(../../images/icon-arrow.svg);
+}
+
+.arrow-four {
+  background-image: url(../../images/icon-arrow.svg);
+}
+
+.arrows {
   background-repeat: no-repeat;
   height: 3rem;
   width: 3rem;
   margin-right: 2rem;
 }
-
-.arrow-four {
-  background-image: url(../../images/icon-arrow.svg);
-  background-repeat: no-repeat;
-  height: 3rem;
-  width: 3rem;
-  margin-right: 2rem;
+@media only screen and (max-width: 400px) {
+  .arrows {
+    margin: 0 1rem 0 0;
+    width: 2rem;
+    height: 2rem;
+    background-size: contain;
+  }
 }
 
 .footer {
