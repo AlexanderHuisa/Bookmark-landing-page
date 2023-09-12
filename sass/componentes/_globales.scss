@@ -44,6 +44,12 @@ body{
         height: 15rem;
      }
 
+	 @include media(mobile-small){
+		height: 12rem;
+		width: 18rem;
+		top: 26%;
+	}
+
 }
 
 

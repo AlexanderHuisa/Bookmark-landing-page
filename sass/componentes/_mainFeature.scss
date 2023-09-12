@@ -125,7 +125,12 @@
         top: 205%;
         width: 20rem;
         height: 15rem;
-     }
+    }
+    @include media(mobile-small){
+		height: 12rem;
+		width: 18rem;
+		top: 182%;
+	}
     
 }
 

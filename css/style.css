@@ -485,6 +485,13 @@ body {
     height: 15rem;
   }
 }
+@media only screen and (max-width: 400px) {
+  .decoration-body {
+    height: 12rem;
+    width: 18rem;
+    top: 26%;
+  }
+}
 
 .header {
   max-width: 1440px;
@@ -843,6 +850,13 @@ body {
     top: 205%;
     width: 20rem;
     height: 15rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .decoration-features {
+    height: 12rem;
+    width: 18rem;
+    top: 182%;
   }
 }
 
