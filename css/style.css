@@ -779,7 +779,6 @@ body {
 @media only screen and (max-width: 400px) {
   .main__features__nav {
     font-size: 1rem;
-    margin: 1rem 0;
     gap: 2.8rem;
   }
 }
@@ -796,13 +795,13 @@ body {
   width: 20rem;
   height: 0.5rem;
   left: 50%;
-  top: 160%;
+  top: 170%;
   -webkit-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
 }
 @media only screen and (max-width: 400px) {
   .main__features__nav--sub-line::after {
-    width: 8rem;
+    width: 10rem;
   }
 }
 .main__features__nav a {
